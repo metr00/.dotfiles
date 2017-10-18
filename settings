@@ -1,0 +1,6 @@
+set number
+set showmatch   #highlights matching characters
+colorscheme   #badwolf desert
+syntax on
+set tabstop=4
+set softtabstop=4
