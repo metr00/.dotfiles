@@ -1,3 +1,5 @@
+# basic vim settings
+
 set number
 set showmatch   #highlights matching characters
 colorscheme   #badwolf desert
