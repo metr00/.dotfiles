@@ -1,9 +1,0 @@
-#colors in vim might be different in tmux
-#incase use these settings
-
-#tmux.conf
-set -g default-terminal "screen-256color"
-
-
-#vimrc
-set background=dark
