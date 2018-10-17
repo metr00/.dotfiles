@@ -54,6 +54,10 @@ colorscheme molokai
 " Highlights syntax
 syntax on
 
+"set 'jk' as ESC
+inoremap jk <Esc>
+inoremap kj <Esc>
+
 " Security
 set modelines=0
 
