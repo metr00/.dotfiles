@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tomasr/molokai'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -35,9 +36,8 @@ endif
 
 "======Themes======"
 
-"Nord theme
-let g:airline_theme='nord'
-colorscheme nord
+let g:airline_theme='badwolf'
+colorscheme molokai
 
 "======General settings======"
 
@@ -56,8 +56,14 @@ set cursorline
 " Show file stats
 set ruler
 
+" Uncomment for transparency in vim
+hi Normal guibg=NONE ctermbg=NONE
+
 " Blink cursor on error instead of beeping (grr)
 set visualbell
+
+" Toggle this for light or dark colorscheme
+"set background=dark
 
 " Encoding
 set encoding=utf-8
