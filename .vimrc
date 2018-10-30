@@ -114,6 +114,17 @@ set laststatus=2
 set showmode
 set showcmd
 
+" Disable ugly arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+" while in insert mode
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
 " Searching
 nnoremap / /\v
 vnoremap / /\v
