@@ -115,10 +115,10 @@ set showmode
 set showcmd
 
 " Disable ugly arrow keys
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+"noremap <Up> <Nop>
+"noremap <Down> <Nop>
+"noremap <Left> <Nop>
+"noremap <Right> <Nop>
 " while in insert mode
 inoremap <Up> <Nop>
 inoremap <Down> <Nop>
