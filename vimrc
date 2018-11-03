@@ -57,6 +57,8 @@ syntax on
 "set 'jk' as ESC
 inoremap jk <Esc>
 inoremap kj <Esc>
+inoremap JK <Esc>
+inoremap KJ <Esc>
 
 " Security
 set modelines=0
