@@ -14,7 +14,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'tomasr/molokai'
+Plugin 'ErichDonGubler/vim-sublime-monokai'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -46,7 +47,7 @@ let g:syntastic_check_on_wq = 0
 "======Themes======"
 
 let g:airline_theme='badwolf'
-colorscheme molokai
+colorscheme sublimemonokai
 
 "======General settings======"
 
