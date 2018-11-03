@@ -1,4 +1,4 @@
-# to activate ctr-b then shift-i
+# to activate ctrl-b then shift-i
  List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
