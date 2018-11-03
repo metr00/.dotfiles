@@ -60,6 +60,9 @@ inoremap kj <Esc>
 inoremap JK <Esc>
 inoremap KJ <Esc>
 
+"enables mouse control on panel
+set mouse=a
+
 " Security
 set modelines=0
 

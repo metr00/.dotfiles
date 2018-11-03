@@ -1,5 +1,5 @@
 # to activate ctr-b then shift-i
-# List of plugins
+ List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 
