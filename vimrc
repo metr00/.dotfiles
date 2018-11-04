@@ -71,6 +71,9 @@ set modelines=0
 " Show line numbers
 set number
 
+" 256 color 
+set t_Co=256
+
 " Highlight cursor
 set cursorline
 
