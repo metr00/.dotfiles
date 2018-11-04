@@ -80,8 +80,8 @@ set cursorline
 " Show file stats
 set ruler
 
-" Uncomment for transparency in vim
-hi Normal guibg=NONE ctermbg=NONE
+" toggle for transparency in vim
+"hi Normal guibg=NONE ctermbg=NONE
 
 " Blink cursor on error instead of beeping (grr)
 set visualbell

@@ -10,6 +10,12 @@ set -g @themepack 'powerline/block/cyan'
 # Vim tmux navigator
 set -g @plugin 'christoomey/vim-tmux-navigator'
 
+# set 256 color
+set -g default-terminal "screen-256color"
+
+# set window numbering at 1
+set-option -g base-index 1
+set-window-option -g pane-base-index 1o
 # set zsh as default
 set-option -g default-shell /usr/bin/zsh
 
