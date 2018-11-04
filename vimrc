@@ -18,6 +18,7 @@ Plugin 'ErichDonGubler/vim-sublime-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Yggdroot/indentLine'
 Plugin 'crusoexia/vim-monokai'
+Plugin 'joshdick/onedark.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -49,7 +50,7 @@ let g:syntastic_check_on_wq = 0
 "======Themes======"
 
 let g:airline_theme='badwolf'
-colorscheme monokai
+colorscheme sublimemonokai
 
 "======General settings======"
 
