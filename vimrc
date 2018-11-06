@@ -47,13 +47,20 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 20
 
 "======Themes======"
 
 let g:airline_theme='badwolf'
 "let g:gruvbox_italic=1
 colorscheme onedark
+let g:indentLine_char = '┆'
+
+"======Pymode======"
+
+let g:pymode_syntax = 1
+let g:pymode_python = 'python3'
+let g:pymode_syntax_all = 1 
 
 "======General settings======"
 
