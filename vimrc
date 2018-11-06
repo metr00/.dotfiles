@@ -17,8 +17,10 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'ErichDonGubler/vim-sublime-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Yggdroot/indentLine'
-Plugin 'crusoexia/vim-monokai'
 Plugin 'joshdick/onedark.vim'
+Plugin 'morhetz/gruvbox'
+Plugin 'python-mode/python-mode'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,7 +52,8 @@ let g:syntastic_check_on_wq = 0
 "======Themes======"
 
 let g:airline_theme='badwolf'
-colorscheme sublimemonokai
+"let g:gruvbox_italic=1
+colorscheme onedark
 
 "======General settings======"
 
@@ -75,8 +78,14 @@ set number
 " 256 color 
 set t_Co=256
 
+" old fashion color
+set termguicolors
+
 " Highlight cursor
 set cursorline
+
+" set comments as italics
+highlight Comment cterm=italic
 
 " Show file stats
 set ruler
@@ -97,9 +106,9 @@ set encoding=utf-8
 set wrap
 set textwidth=79
 set formatoptions=tcqrn1
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+"set tabstop=4
+"set shiftwidth=4
+"set softtabstop=4
 set expandtab
 set noshiftround
 
