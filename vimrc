@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'ErichDonGubler/vim-sublime-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Yggdroot/indentLine'
@@ -52,7 +51,6 @@ let g:syntastic_check_on_wq = 20
 "======Themes======"
 
 let g:airline_theme='badwolf'
-"let g:gruvbox_italic=1
 colorscheme onedark
 let g:indentLine_char = '┆'
 
@@ -61,6 +59,7 @@ let g:indentLine_char = '┆'
 let g:pymode_syntax = 1
 let g:pymode_python = 'python3'
 let g:pymode_syntax_all = 1 
+let g:pymode_virtualenv = 1
 
 "======General settings======"
 
@@ -113,9 +112,9 @@ set encoding=utf-8
 set wrap
 set textwidth=79
 set formatoptions=tcqrn1
-"set tabstop=4
-"set shiftwidth=4
-"set softtabstop=4
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set noshiftround
 
@@ -128,6 +127,7 @@ runtime! macros/matchit.vim
 " Move up/down editor lines
 nnoremap j gj
 nnoremap k gk
+
 
 " Allow hidden buffers
 set hidden
