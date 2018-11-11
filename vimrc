@@ -13,12 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'ErichDonGubler/vim-sublime-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Yggdroot/indentLine'
 Plugin 'joshdick/onedark.vim'
 Plugin 'morhetz/gruvbox'
-Plugin 'python-mode/python-mode'
+Plugin 'crusoexia/vim-monokai'
+
 
 
 call vundle#end()            " required
@@ -51,15 +51,8 @@ let g:syntastic_check_on_wq = 20
 "======Themes======"
 
 let g:airline_theme='badwolf'
-colorscheme onedark
+colorscheme monokai
 let g:indentLine_char = '┆'
-
-"======Pymode======"
-
-let g:pymode_syntax = 1
-let g:pymode_python = 'python3'
-let g:pymode_syntax_all = 1 
-let g:pymode_virtualenv = 1
 
 "======General settings======"
 
@@ -73,7 +66,7 @@ inoremap JK <Esc>
 inoremap KJ <Esc>
 
 "enables mouse ctrl
-set mouse=a
+"set mouse=a
 
 " Security
 set modelines=0
@@ -85,10 +78,14 @@ set number
 set t_Co=256
 
 " old fashion color
-set termguicolors
+"set termguicolors
 
 " Highlight cursor
 set cursorline
+
+" natural pane split
+set splitbelow
+set splitright
 
 " set comments as italics
 highlight Comment cterm=italic
@@ -143,15 +140,21 @@ set showmode
 set showcmd
 
 " Disable ugly arrow keys
-"noremap <Up> <Nop>
-"noremap <Down> <Nop>
-"noremap <Left> <Nop>
-"noremap <Right> <Nop>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 " while in insert mode
-"inoremap <Up> <Nop>
-"inoremap <Down> <Nop>
-"inoremap <Left> <Nop>
-"inoremap <Right> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
+" easier split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Searching
 nnoremap / /\v
