@@ -75,7 +75,7 @@ set modelines=0
 set number
 
 " 256 color 
-set t_Co=256
+"set t_Co=256
 
 " old fashion color
 "set termguicolors
