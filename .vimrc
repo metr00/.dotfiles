@@ -8,5 +8,4 @@ set hlsearch
 set ruler
 highlight Comment ctermfg=green
 colorscheme ron
-inoremap jk <Esc>
-inoremap kj <Esc>
+inoremap jj <Esc>
